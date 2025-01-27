@@ -11,6 +11,8 @@ import './App.css'
 
 import Img1 from '../assets/img1.jpg'
 import Img2 from '../assets/img2.jpg'
+import Img3 from '../assets/img3.jpg'
+import Img4 from '../assets/img4.jpg'
 import Img5 from '../assets/img5.jpg'
 
 
@@ -73,22 +75,22 @@ export function CarouselDefault() {
       )}
     >
       <img
-        src='../assets/img1.jpg'
+        src={Img1}
         alt="image 1"
         className="h-full w-full p-2 object-cover"
       />
       <img
-        src='../assets/img2.jpg'
+        src={Img2}
         alt="image 2"
         className="h-full w-full p-2 object-cover"
       />
       <img
-        src='../assets/img3.jpg'
+        src={Img3}
         alt="image 3"
         className="h-full w-full p-2 object-cover"
       />
       <img
-        src='../assets/img5.jpg'
+        src={Img5}
         alt="image 5"
         className="h-full w-full p-2 object-cover object-top"
       />
@@ -143,7 +145,7 @@ function App() {
           Conheci uma mulher inteligente, amiga e safada,
           Conheci o amor da minha vida.
           '
-              image='../assets/img4.jpg'
+              image={Img4}
             />
           </div>
 
@@ -156,7 +158,7 @@ function App() {
           tento retribuir da melhor maneira possível
           sempre te fazendo se sentir amada e desejada.
           '
-              image='../assets/img2.jpg'
+              image={Img2}
             />
           </div>
 
@@ -176,7 +178,7 @@ function App() {
           um pelo outro.
           Te amo
           '
-              image='../assets/img4.jpg'
+              image={Img4}
             />
           </div>
 
