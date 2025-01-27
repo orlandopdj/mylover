@@ -8,7 +8,11 @@ import {
 } from '@material-tailwind/react';
 
 import './App.css'
-import { useState } from 'react';
+
+import Img1 from '../assets/img1.jpg'
+import Img2 from '../assets/img2.jpg'
+import Img5 from '../assets/img5.jpg'
+
 
 let reload = true
 export function CarouselDefault() {
@@ -69,22 +73,22 @@ export function CarouselDefault() {
       )}
     >
       <img
-        src='/assets/img1.jpg'
+        src='../assets/img1.jpg'
         alt="image 1"
         className="h-full w-full p-2 object-cover"
       />
       <img
-        src='/assets/img2.jpg'
+        src='../assets/img2.jpg'
         alt="image 2"
         className="h-full w-full p-2 object-cover"
       />
       <img
-        src='/assets/img3.jpg'
+        src='../assets/img3.jpg'
         alt="image 3"
         className="h-full w-full p-2 object-cover"
       />
       <img
-        src='/assets/img5.jpg'
+        src='../assets/img5.jpg'
         alt="image 5"
         className="h-full w-full p-2 object-cover object-top"
       />
@@ -139,7 +143,7 @@ function App() {
           Conheci uma mulher inteligente, amiga e safada,
           Conheci o amor da minha vida.
           '
-              image='/assets/img4.jpg'
+              image='../assets/img4.jpg'
             />
           </div>
 
@@ -152,7 +156,7 @@ function App() {
           tento retribuir da melhor maneira possível
           sempre te fazendo se sentir amada e desejada.
           '
-              image='/assets/img2.jpg'
+              image='../assets/img2.jpg'
             />
           </div>
 
@@ -172,7 +176,7 @@ function App() {
           um pelo outro.
           Te amo
           '
-              image='/assets/img4.jpg'
+              image='../assets/img4.jpg'
             />
           </div>
 
@@ -180,7 +184,7 @@ function App() {
             <CardDefault
               title='Te amo meu amor ❤️'
               paragraph=''
-              image='/assets/img5.jpg'
+              image={Img5}
             />
           </div>
         </div>
