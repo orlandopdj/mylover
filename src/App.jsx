@@ -69,22 +69,22 @@ export function CarouselDefault() {
       )}
     >
       <img
-        src='../src/img/img1.jpg'
+        src='../src/assets/img1.jpg'
         alt="image 1"
         className="h-full w-full p-2 object-cover"
       />
       <img
-        src='../src/img/img2.jpg'
+        src='../src/assets/img2.jpg'
         alt="image 2"
         className="h-full w-full p-2 object-cover"
       />
       <img
-        src='../src/img/img3.jpg'
+        src='../src/assets/img3.jpg'
         alt="image 3"
         className="h-full w-full p-2 object-cover"
       />
       <img
-        src='../src/img/img5.jpg'
+        src='../src/assets/img5.jpg'
         alt="image 5"
         className="h-full w-full p-2 object-cover object-top"
       />
@@ -139,7 +139,7 @@ function App() {
           Conheci uma mulher inteligente, amiga e safada,
           Conheci o amor da minha vida.
           '
-              image='../src/img/img4.jpg'
+              image='../src/assets/img4.jpg'
             />
           </div>
 
@@ -152,7 +152,7 @@ function App() {
           tento retribuir da melhor maneira possível
           sempre te fazendo se sentir amada e desejada.
           '
-              image='../src/img/img2.jpg'
+              image='../src/assets/img2.jpg'
             />
           </div>
 
@@ -172,7 +172,7 @@ function App() {
           um pelo outro.
           Te amo
           '
-              image='../src/img/img4.jpg'
+              image='../src/assets/img4.jpg'
             />
           </div>
 
@@ -180,7 +180,7 @@ function App() {
             <CardDefault
               title='Te amo meu amor ❤️'
               paragraph=''
-              image='../src/img/img5.jpg'
+              image='../src/assets/img5.jpg'
             />
           </div>
         </div>
